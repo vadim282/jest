@@ -1,0 +1,48 @@
+.hidden {
+  display:none;
+}
+.wrapper {
+  width:100%;
+  min-height:100%;
+  background-color: rgba(0,0,0,0.5);
+  overflow:hidden;
+  position:fixed;
+  top:0px;
+}
+.add-modal {
+  background-color: #fff;
+  min-width: 300px;
+  min-height: 300px;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  color: #2196f3;
+
+}
+
+.add-newUser {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.title-user-info {
+  margin-bottom: 10px;
+}
+
+.btn-newUser, .close {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 5px 15px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+.btn-newUser:hover, .close:hover {
+  background-color: blue;
+  color: white;
+}

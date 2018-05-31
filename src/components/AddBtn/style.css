@@ -1,0 +1,22 @@
+
+.addBtn {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 5px 15px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+.addBtn:hover {
+  background-color: blue;
+  color: white;
+}
+
+.addBtn-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+

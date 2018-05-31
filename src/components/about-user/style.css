@@ -1,0 +1,24 @@
+
+.del-edit-btn {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 5px 15px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+.del-edit-btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+h1, h2 {
+  color: #2196f3;
+}
+
+.about-user-table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+

@@ -1,0 +1,14 @@
+.myTable {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #2196f3;
+}
+th {
+  border: 1px solid #2196f3;
+}
+.titleTable {
+  color: #2196f3;
+}
+.myTable {
+  margin-bottom: 50px;
+}
